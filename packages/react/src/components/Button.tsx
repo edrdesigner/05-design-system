@@ -87,3 +87,4 @@ export interface ButtonProps extends ComponentProps<typeof Button> {
 }
 
 // export type ButtonProps = ComponentProps<typeof Button>
+Button.displayName = 'Button'

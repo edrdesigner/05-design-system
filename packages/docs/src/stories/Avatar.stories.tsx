@@ -8,6 +8,11 @@ export default {
     src: 'https://avatars.githubusercontent.com/u/1152740?v=4',
     alt: 'Robot Avatar',
   },
+  argTypes: {
+    src: {
+      control: { type: 'text' },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
