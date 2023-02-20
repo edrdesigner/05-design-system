@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Tooltip, TooltipProps, Button, Box } from '@ignite-ui/react'
+import { Tooltip, TooltipProps, Button, Box } from '@edr-ignite-ui/react'
 
 export default {
   title: 'Form/Tooltip',
@@ -7,6 +7,7 @@ export default {
   args: {
     children: <Button>Hover me</Button>,
     content: 'This is a tooltip',
+    delayDuration: 200,
   },
   argTypes: {
     children: {

@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@edr-ignite-ui/docs",
   "version": "1.0.0",
   "description": "",
   "main": "vite.config.js",
@@ -12,10 +12,10 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@edr-ignite-ui/eslint-config": "*",
+    "@edr-ignite-ui/react": "*",
+    "@edr-ignite-ui/tokens": "*",
+    "@edr-ignite-ui/ts-config": "*",
     "@storybook/addon-a11y": "^6.5.16",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
